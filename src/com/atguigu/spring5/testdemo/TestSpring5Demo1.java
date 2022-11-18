@@ -26,6 +26,7 @@ public class TestSpring5Demo1 {
         System.out.println(userService);
         System.out.println(userService);
         System.out.println(userService);
+        System.out.println("master test");
         userService.add();
     }
 
