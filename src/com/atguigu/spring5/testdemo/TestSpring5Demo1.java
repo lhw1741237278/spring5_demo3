@@ -14,6 +14,7 @@ public class TestSpring5Demo1 {
         ApplicationContext context = new ClassPathXmlApplicationContext("bean1.xml");
         UserService userService = context.getBean("userService", UserService.class);
         System.out.println(userService);
+
         userService.add();
     }
 
