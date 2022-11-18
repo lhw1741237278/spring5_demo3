@@ -24,6 +24,8 @@ public class TestSpring5Demo1 {
         ApplicationContext context = new AnnotationConfigApplicationContext(SpringConfig.class);
         UserService userService = context.getBean("userService", UserService.class);
         System.out.println(userService);
+        System.out.println(userService);
+        System.out.println(userService);
         userService.add();
     }
 
